@@ -20,7 +20,7 @@ def dream(
     if_III_kwargs=None,
     progress=True,
     return_tensors=False,
-    disable_watermark=False,
+    disable_watermark=True,
 ):
     """
     Generate pictures using text description!
